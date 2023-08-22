@@ -967,11 +967,12 @@ letter-spacing: 0.32px;
     letter-spacing: 0.48px;
     color: var(--logo-color);
 }
-                
+
 .review-form-checkbox:checked+.review-form-checkbox-label>.modal-check-box {
     fill: var(--button-color);
     background-color: var(--hover-color);
     border: none;
+    fill: #FFFFFF;
 }
                 
 .review-form-checkbox:focus+.review-form-own-checkbox {
