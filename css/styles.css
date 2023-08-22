@@ -929,7 +929,7 @@ letter-spacing: 0.32px;
      margin-bottom: 24px;
 }
                 
-.checkbox-label { 
+.review-form-checkbox-label { 
     display: flex;
     display: block;
     align-items: center;
@@ -968,7 +968,7 @@ letter-spacing: 0.32px;
     color: var(--logo-color);
 }
 
-.review-form-checkbox:checked + .checkbox-label > .modal-check-box {
+.review-form-checkbox:checked + .review-form-checkbox-label> .modal-check-box {
     fill: var(--button-color);
     background-color: var(--hover-color);
     border: none;
