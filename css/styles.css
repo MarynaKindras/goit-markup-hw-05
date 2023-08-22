@@ -969,8 +969,8 @@ letter-spacing: 0.32px;
 }
                 
 .review-form-checkbox:checked+.review-form-checkbox-label>.modal-check-box {
-    fill: #f4f4fd;
-    background-color: #404bbf;
+    fill: var(--button-color);
+    background-color: var(--hover-color);
     border: none;
 }
                 
