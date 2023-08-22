@@ -649,7 +649,7 @@ body {
     display: inline-block;
 }
     
-.text-footer {
+/*.text-footer {
     color: var(--button-color);
     font-size: 16px;
     line-height: 1.5;
@@ -658,8 +658,13 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
     max-width: 264px;
-}
-    
+} */
+.text-footer {
+        color: #f4f4fd;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
 .accent {
     color: #f4f4fd;
 }
@@ -700,7 +705,7 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
         
-.footer__subscribe-input::placeholder {
+.footer-subscribe-input::placeholder {
     color: #fff;
 }
         
@@ -724,8 +729,8 @@ body {
     background: #4d5ae5;
 }
         
-.footer__subscribe-button:hover,
-.footer__subscribe-button:focus {
+.footer-subscribe-button:hover,
+.footer-subscribe-button:focus {
     background-color: #404bbf;
 }
         
