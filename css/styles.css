@@ -929,7 +929,7 @@ letter-spacing: 0.32px;
      margin-bottom: 24px;
 }
                 
-.review-form-checkbox-label { 
+.checkbox-label { 
     display: flex;
     display: block;
     align-items: center;
